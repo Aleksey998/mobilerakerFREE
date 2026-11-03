@@ -10,7 +10,7 @@ jobs:
       - name: Checkout Stable Tag
         uses: actions/checkout@v4
         with:
-          ref: 'v2.6.9'
+          ref: 'android-v2.6.9'
 
       - name: Setup Java
         uses: actions/setup-java@v4
